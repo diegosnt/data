@@ -189,3 +189,111 @@ A continuación te mostraré un código HTML y la idea es que tu lo organices de
 
 ![](img/02-09_reto.jpg)
 
+
+
+## 3.Conceptos iniciales de CSS
+
+### Anatomía de una declaración CSS: Selectores, Propiedades y Valores
+
+Nuestros estilos con CSS se componen de:
+
+- **Selector:** son la referencia a los elementos HTML que queremos estilizar. Los nombres de estas etiquetas van seguidas de una llave de apertura y otra de cierre ({}). Por ejemplo: h1 {}.
+- **Propiedades:** son el tipo de estilo que queremos darle a nuestros elementos. Van seguidas de dos puntos (:). Las propiedades deben estar dentro de las llaves del selector que definimos anteriormente. Podemos escribir diferentes propiedades en un mismo selector. Por ejemplo: h1 { color: }.
+- **Valores:** son el estilo que queremos que tomen nuestros elementos HTML con respecto a una propiedad. Van seguidas de un punto y coma (;). Por ejemplo: h1 { color: red; }.
+
+```css
+h1 {
+  color: red;
+}
+```
+
+![](img/03-01_anatomia_css.jpg)
+
+### Tipos de selectores, pseudo-clases y pseudo-elementos
+
+***(asterisco)**: Es el selector universal. Las propiedades se aplicaran a todos los elementos de nuestro HTML.
+
+**Tipo**: Son selectores que se aplican a cierto elemento HTML en específico. Las propiedades se aplicaran a la etiqueta que queremos, por ejemplo `p`, `body`, `html`, `div`, etc.
+
+**Clase**: Si nuestras etiqueta de HTML tienen un atributo de `class` podemos usar ese valor o identificador para que los cambios en el CSS afecten únicamente a ese elemento.
+
+**ID**: Es similar al anterior, si la etiqueta HTML tiene un ID podemos afectar solo ese elemento.
+
+Las **Pseudo-clases** y **Pseudo-elementos** nos permiten ser aún más específicos con qué elemento o partes de nuestros elementos deben recibir los estilos.
+
+Para usarlas debemos definir el selector base (por ejemplo, **`p`**) seguido de dos puntos y la pseudo-clase que queremos estilizar (por ejemplo: **`p:first-child`**). En el caso de los pseudo-elementos debemos usar el dos puntos 2 veces (**`p::first-letter`**).
+
+```css
+/* Asterisco (universal) */
+* {
+  margin: 0;
+}
+
+/* Tipo */
+h1 {
+  color: red;
+}
+
+/* Clase */
+.saludo {
+  font-size: 2em;
+}
+
+/* ID */
+#id {
+  border-radius: 20px;
+}
+
+/* Pseudo-clases */
+p:first-child {
+  color: white;
+}
+
+p:last-child {
+  color: purple;
+}
+
+p:nth-child(2n) {
+  color: red;
+}
+```
+
+![](img/03-02_selector_css.jpg)
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+
+https://coolsymbol.com/emojis/emoji-for-copy-and-paste.html
+
+![](img/03-03_pseudo_elemento_css.jpg)
+
+
+
+### Modelo de caja
+
+Todos los elementos de HTML tienen un modelo de caja y esta compuesto por cuatro elementos: contenido, padding, border, margin.
+
+https://picular.co/Video
+
+https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+
+https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e
+
+https://colorhunt.co/
+
+![](img/03-04_cajas.jpg)
+
+### Valores relativos y absolutos
+
+Los valores absolutos son, por ejemplo, centímetros, milímetros, pixeles y pulgadas. Se llaman de esta forma porque no tienen en cuenta a nadie más, no depende de la medida de otra unidad.
+
+Los valores relativas, llevan este nombre porque depende de otra unidad de medida o elemento. Por ejemplo, porcentajes, vmx, em, entre otros.
+
+Recuerda que podemos darle estilos a etiquetas HTML muy específicas indicando dónde se van a encontrar. Por ejemplo: si queremos darle estilos únicamente a la imagen que está dentro del header, podemos usar el selector css header img { ... }.
+
+No olvides resolver el desafío: crear tu propio header con las etiquetas y estilos que más te gusten para compartirlo en la sección de discusiones.
+
+![](img/03-05_unidades.jpg)
+
+![](img/03-06_unidades_relativas.jpg)

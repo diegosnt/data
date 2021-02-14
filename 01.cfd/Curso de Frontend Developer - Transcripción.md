@@ -431,3 +431,348 @@ L Entonces con esto ya podemos darnos cuenta cuáles son nuestros errores y asim
 En la siguiente clase.
 Te voy a dejar una lectura con un reto Espero los realices y si tienes alguna duda o comentario, no dudes hacerlo en la sección de comentarios.
 Nos vemos en la siguiente clase..
+
+
+
+## 3.Conceptos iniciales de CSS
+
+
+### Anatomía de una declaración CSS: Selectores, Propiedades y Valores
+
+Hola.
+Bienvenidos a un nuevo módulo.
+Este tema me encanta muchísimo.
+Vamos a hablar sobre ese Ese ese sobre cómo vamos a escribir estos estilos en nuestras hojas de htm? L Vamos a hablar de selectores.
+Vamos a hablar de propiedades y de valores.
+Nosotros en clases anteriores Trabajamos con HTML y nos dimos cuenta que al escribir ese código y ver el resultado en la pantalla, todos los elementos se nos posicionaban en la esquina superior izquierda.
+Sin embargo, qué pasaría si nosotros no quisiéramos que dos elementos estuvieran ahi sino al lado derecho? En la esquina inferior izquierda.
+Eso lo podemos hacer a través de seis meses.
+Y también podemos colocarle un poquitito más de vida.
+Por ejemplo, si creemos que nuestros parrafos sean de un color rojo, vamos a utilizar lo que vemos aquí Tenemos una P y tenemos unas llaves.
+Esas llaves van a hacer la apertura de nuestras propias estas propiedades.
+En este caso tenemos la del color.
+Tenemos color dos puntos y el valor, que en este caso también es Red Asimismo podemos escribir otras propiedades y otros valores de se s Sí, pero vamos a comenzar con el código y así mismo, vamos a empezar a ver otros estilos.
+Aquí cree otra, Otra archivo te llama.
+Estáis punto html nuevamente escribimos html dos punto cinco y dentro del PO y vamos a empezar a escribir nuestro código en este caso, vamos a ver el resultado de colocar todos nuestros párrafos en rojo.
+Le damos P y con la tecla tabulador vamos a escribir.
+Hola, mundo feliz y abajo.
+Vamos a colocar otro párrafo que sean Hola.
+Hola, mundo.
+Muy no Vamos a guardar y vamos a ver eso en el navegador Como.
+Bien.
+Vimos todos en la exposición, en la esquina superior izquierda.
+Vamos a ver cómo hacemos para que justamente esto que nosotros acabamos de escribir se nos vea de color rojo debajo del etiquetaje.
+Vamos a escribir otra etiqueta.
+Qué sustancia le vamos a dar? Enter.
+Vamos a darle un doble espacio.
+Citó.
+Vamos a dejar que vamos a hacer que aquí haya un espacio para colocar nuestros estilos.
+Aquí vamos a empezar a colocar todos nuestros.
+Es es si queremos escribir, si queremos hacer que todos nuestros parrafos sean rojos, vamos a colocar P.
+Esto va indicar que va a seleccionar todos los párrafos.
+Abrimos con llaves y dentro de estas llaves, vamos a describir nuestra propia que en este caso va a ser color y el valor desde color que en este caso y Red.
+Vamos a guardar y vamos a actualizar aquí el navegador.
+Vamos a ver que efectivamente todos nuestros párrafos están siendo escritos de Col coloreados de color Blog Sin embargo, qué pasaría si nosotros no creemos que todos los párrafos sean de color rojo? Qué pasaría si queremos que solamente sea la letra inicial o que sea el primer párrafo.
+Para eso tenemos que ver un tema muy importante que es hablar bien de selectores de pseudo clases y deseo de elementos.
+Eso lo vamos a ver en la siguiente clase..
+
+
+
+### Tipos de selectores, pseudo-clases y pseudo-elementos
+
+Hola en esta clase vamos a hablar sobre selectores sobre pseudo clases y sobre Saioud Elements.
+En la clase anterior vimos que pudimos colorear todos nuestros párrafos de color rojo Sin embargo, qué pasaría si no queremos colorear los todos, sino que queremos colorear el primero o el último o simplemente uno en especial? Para eso tenemos otro tipo de selectores Uno de ellos es el selector universal que se escribe con un asterisco Cuando colocamos un este disco en nuestro archi rito ese ese ese.
+Vamos a ver que se van a colorear o han aplicarse todas estas propiedades a todos nuestros elementos en HTML Si yo coloco esque asterisco y ahí con lo que una propiedad que sea color red todos mis tics que tengan algún texto, todos nuestros párrafos H uno H dos El que sea, se les va a aplicar este colar.
+Ahora tenemos otros el lector que es el el selector de tipo esto es el lector de tipo es como el que utilizamos en la clase anterior, la P SSL en sus electores no son tan buenos y tan recomendables utilizarlos cuando estamos trabajando en aplicaciones grandes o con muchas hojas de estilo con muchos estilos porque Porque si yo utilizo P se me van a colorear todos los pequeño tenga en mi aplicación y muy seguramente no voy a querer es puede que en una pantalla quiera los p de color negro, pero en otra pantalla quiera los p de color verde, por ejemplo.
+Entonces no es tan buen utilizar este tipo de de selectores.
+Para eso llegan otros electores, que son los electores de clase.
+Nosotros tenemos los elementos y como vimos también en clases anteriores, podemos colocar le atributos a estos elementos.
+Uno de sus atributos es Clase Hay.
+Le vamos a colocar una especie de identificador a nuestros elementos y con este identificador podemos trabajar lo en seis meses.
+Por ejemplo, mi párrafo, el que escribí en la clase anterior.
+Le puedo colocar Class título principal o un párrafo principal y ya con esta clase y la puedo trabajar en CSS y decirle que mi título principal va a tener un color rojo y así no se me van a colorear Absolutamente todos los padres Por último tenemos estos electores por aire Tampoco es aconsejable trabajar con hay, dice.
+Más adelante les voy a hablar sobre especificidad y vamos a ver porque no es tan bueno y tan recomendable utilizar Idees.
+El latinos va a aumentar la especificidad y después trabajar con esto Va a hacer un poquitito complicado.
+No te preocupes y de pronto no entiende donas escuchado anteriormente en la palabra especificidad.
+Eso lo vamos a ver más a él.
+La pseudo clases.
+Si nosotros queremos aplicar un estilo en especial.
+Por ejemplo, el primer párrafo, el último párrafo de lo que hablamos al principio tenemos la pseudo classe que nos ganaron estilos pero específicos.
+Por ejemplo, aquí tenemos el P.
+Tenemos dos puntos y Finish Chai Eso qué quiere decir? Que el primer hijo que tenga P le voy a aplicar esas propiedades que están allá de El.
+Segundo ejemplo Espe las chal.
+Esto quiere decir que el último hijo que tenga P género se me van a aplicar esos estilos.
+Y por último, tenemos otro que es n THE Charles mejor lo vamos a ver en el código para que veamos cómo funcionan estas pseudo classe Ahora.
+Tenemos nuestro escribe anteriores que hicimos en la clase anterior.
+Vamos a ahorrar.
+Lo vamos a borrar también los estilos.
+Y vamos a colocar un nuevo barra aquí tengo una lista de animales.
+Utilice unos de Morris, pero tú también puedes utilizar en muchos.
+Si de pronto utilizas Mac en la parte superior dice Edit.
+Y aquí le puedes dar n Morris de salió una lista de Morris y pues seleccionar el que más te gusta, sino sino utilizas Mac.
+Pues también hacer uso de este recurso que tengo acá, que se llama en Montjuic, invoca y te voy a dejar este enlace también para que lo puedas utilizar.
+Solamente es copiar.
+Dale click y luego vas al código y le das con Manuel.
+Ella se te pegaría.
+Es de mucho.
+Voy a copiar Entonces estos animales que tengo acá voy a colocar otro párrafo.
+Voy a copiar este que hice perro y también voy a copiar este que dice banco Sólo voy a ocupar estos estos tras.
+Pero tú puedes colocar cuantos quieras En el estilo ya vamos a empezar a ver cómo funcionar que estas pseudo clases.
+Voy a colocar P y solamente quiero ver mi conejo con el texto Conejo de color rosa.
+Para eso le voy a colocar dos puntos y le escribo Fierce al Esto.
+Quiere decir que el primero de todos esos P cmd a retirar con esos estilos que yo le ponga ahí, en este caso sería con los y en tu le puedes colocar también el color que seis vamos a guardar y acá vamos a refrescar.
+Vamos a ver qué conejo solamente tiene ese color y que perviva acá siguen exactamente con los que tenían por defecto.
+Si, por ejemplo, quiero que sea ahora Vaca, lo que voy a hacer es coger P dos puntos.
+Le colocó las Chai, lo que quiere decir que va a coger el último de todos esos P y le voy a colocar otro color.
+Vamos a colocar le no, voy a guardar y vamos a ver qué sucede.
+Efectivamente, se nos colorea.
+Vaca de color café.
+Listo.
+Esa casta super bien, pero bueno, también podemos jugar un poquito ICO con esta pseudo classe y podemos aplicar un poco de matemática.
+No te abrume si de pronto no te gustan mucho las matemáticas, pero aquí va a ser super.
+Es sencilla y superfácil, muy chevere.
+Vamos a colocar acá B dos puntos y vamos a utilizar esa pseudo classe de que vimos también en el es light anterior, que es en el pH echar eso qué quiere decir? N es un número cualquiera, puede ser el cero el diez el veinte y TH hace alusión a los números ordinarios en inglés.
+Si yo coloco, por ejemplo, en inglés fes Lo que hago es escribir uno en siete Si Voy a escribirse con escribo dos n.
+Esto es normalmente en el lenguaje común y corriente.
+Si empiezo con tres o el tercero sería tres D h y así sucesivamente con todos los todos los números ordinarios Asimismo sucede acá Todo el código que escribimos está en inglés y por esa razón TH así alusión a los números ordinarios.
+Siendo así, vamos a colocar Todos los números pares.
+Es decir, en este caso sería perro.
+Y si tenemos otro elemento, vamos a colocarlo para que no nos quede perro solita mezzo colocar sap on le vamos a pegar aquí para que no quede solamente, Pero todos en ETH Chávez como sería entonces la ecuación matemática para colocar que solamente los elementos parece vamos a colocar n n siempre va a ser el numero empieza desde cero cero uno dos.
+Para eso le voy a colocar dos donde dos por cero cero Después dos por uno, dos dos gordos Cuatro.
+Así que este me va a dar todos los números que son.
+Parece.
+Vamos a ver.
+Vamos a colocar le aquí color red y vamos a borrar o vamos a comentar esto que ya tenemos a cargo.
+Vamos a guardar y vamos a ver qué sucedió.
+Efectivamente, perro, quizá porque son los que son pares en este caso.
+Uno, dos, tres y cuatro son los que se nos colorean de color rojo.
+Ahora, para no dejar conejo Ibaka sin estilos.
+Vamos a hacer lo mismo, pero con los impares vamos a escribir P, N, T, H echar igualmente.
+Y ahora, como sería? Sería dos n.
+Tenemos los números pares, pero para que sea impar le tenemos que sumar un uno Ya así, si nosotros nos ponemos a a tantear, a mirar.
+Si n cero dos por cero cero más uno uno.
+Ya estaríamos cogiendo el conejo con el siguiente número, que es uno dos por uno.
+Dos más uno sería tres, tres.
+Ya tenemos ahí conejo y vaca.
+Vamos a colocar le color vio Igual mucha cuerda.
+Vamos a refrescar y efectivamente lo que es Conejo y vaca.
+Se nos van a colorear de color azul.
+Esta es una de las cosas que más me gusta también dice ese ese poder interactuar, poder jugar con todos los colores, con las de estilos, con los elementos Retomando, aparte de los de la pseudo clases tenemos lo que son los seudo elementos.
+Los aut elementos funcionan un poco similar a lo que son las pseudo clases Sin embargo, los seudo elementos se diferencian de la pseudo clases.
+Primero, porque tienen otros dos públicos.
+O sea, si colocamos P en el pH hecha y con dos puntos aquí vamos a colocar P dos puntos, dos puntos y vamos a colocar el pseudo elemento en pantalla.
+Podemos ver uno de los de los EU de elementos.
+En este caso tenemos vi for a Esos son muy usual, muy usados.
+Comúnmente lo va a saber muchísimo en su esencia.
+Bueno, también hay otras.
+Vamos a mirar en el código.
+A ver qué podemos decir con estos Edit de alimentos.
+Aquí tenemos entonces nuestras euros.
+Qué haces? Anteriores? Las vamos a ahorrar y ahora vamos a colocar P dos puntos, dos puntos para indicar que es un un pseudo elemento.
+Colocamos la primera letra y dentro vamos a colocar los estilos que quiero que me aplica.
+En este caso vamos a colocar le color red.
+Y también vamos a colocar le otra nueva propiedad que sería Fons ais.
+Vamos a aumentar.
+Le también es de tamaño la primera ley la Vamos a cuarta HR y vamos a ver el resultado en el navegador Y muy bien.
+No estamos viendo absolutamente nada en lo que hicimos Pero es precisamente por este monje que tenemos acá Mac, esto no lo toma como si fuera un texto, así que lo vamos a borrar.
+Vamos a volver a guardar refresca Moss Y ahí si vemos que nuestra primera letra tiene el color rojo y tiene también la fuente Más grandecita.
+También quiero mostrarte unas una documentación muy buena que es de M, de MN demos y la Aquí puedes ver todos los las euro claves que puedes utilizar Chile Add clic en alguna te va a mostrar también ejemplos Y así mismo, si vamos a los seudo elementos de esta misma documentación, te va a mostrar los posibles pseudo elementos que puedes utilizar.
+Y si les das click, también puedes encontrar algunos ejemplos Es por esta clase te haya gustado muchísimo y nos vemos en la proxima.
+
+
+### Modelo de caja
+
+Hola en esta clase.
+Vamos a hablar sobre el modelo de caja Valores relativos y valores absolutos.
+Todos los elementos HTML tienen un modelo de K.
+Este modelo, el Caja, está compuesto por cuatro elementos El.
+Primero es el contenido.
+Como podemos ver aquí.
+El contenido es lo que está de color azul seguido.
+Esta el padre, ese padre en esta entre el borde y el contenido seguido Help Add himba.
+Entonces el borde y despues Delporte va el marcha.
+Estos conceptos son muy importantes porque nos puede modificar todos los elementos que nosotros construyamos.
+Vamos a mirar esto en código para ver lo más detalladamente para que lo podamos inspeccionar en el navegador.
+Aquí tengo un archivo llamado Modelo Encaja.
+Tú le puedes colocar el nombre que es es y vamos a tratar de inspeccionar con algunos elementos de HTML Tenemos hundir.
+Vamos a Quart AR y vamos a refrescar nuestro navegador.
+En este momento, claramente no vamos a ver nada.
+Sin embargo, echábamos a tener este diez en el inspector de elementos.
+A eso lo conocemos también.
+Cómodo.
+Este es el don.
+Aquí tenemos en la parte de abajo un modelo de caja.
+Este es el que representa este Edit.
+Como podemos ver, no tiene ni marginen NI Border ni padre tiene una especie de contenido para este contenido.
+No tiene absolutamente nada.
+Luego vamos a ir a los estilos como vimos.
+Vamos a colocar una etiqueta.
+Esta ahí debajo de jefe Y aquí en esta ahi vamos a colocarle una clase.
+Ya vimos esto de los electores.
+Entonces vamos a colocar Caja.
+Vamos a abrir llaves y a este Edit le vamos a colocar una clase con el nombre Caja aquí en los estilos Vamos a empezar a molestar un poquito.
+Vamos a colocarle un ancho y un alto en CSS para colocarle un ante un ancho de un alto le colocamos cuidado.
+Podemos colocar le veinte píxeles y le colocamos un High.
+Esto indica que éste también es el alto.
+Vamos a colocar le veinte píxeles Y si vamos al navegador no vamos a oír absolutamente nada todavía porque está en blanco el color por defecto para nosotros Les colocamos un Bagram Con Este va a Crouch.
+Le podemos definir cualquier color que nosotros quedamos Tanto Este va a Brown como este Funcionan igual si tú puedes con los carpa grado o va a gran color pasión.
+Exactamente lo mismo, pero es muy bueno que coloca con los que hemos Va a gran color como para decirle que efectivamente vamos a utilizar un color en este Bagram porque también podemos colocar otro tipo de cosas.
+En Help, agrado Aquí Podemos colocar cualquier color.
+Muchas veces cuando trabajamos no pasamos de los colores primarios, pero me quite tengo una página que me encanta.
+Esta paginita te va a arrojar una cantidad de colores que ya combinarían entre sí.
+Pero tú también puedes colocar aquí.
+Bueno, quiero que me vote los amarillos o quiero que me muestre todos los que estén con naranja y así yo voy a colocar este solamente es darle clic y listo a quién va a gran color, donde le voy a colocar este valor y aquí no me funcionaría de tendría que colocar es de este numeral para que me funciona.
+Vamos a aguardar y nuevamente el modelo de caja.
+Vamos a refrescar y vamos a ver nuestro Edit con veinte píxeles y veinte píxels.
+Miremos, que es que en el modelo de cajas ya nos está diciendo que tenemos un contenido con veinte píxeles y con veinte píxeles.
+Sin embargo, seguimos sin tener absolutamente nada.
+K Qué pasaría si le agregamos un padre? Vamos a ver qué sucede.
+Vamos a colocar le padre, Vamos a colocar le también veinte píxeles.
+Y qué crees tú? Qué piensas? Si tenemos un Huid de veinte píxeles, un Jay de veinte píxeles? Será que si le ponemos un Padín tendrá el mismo tamaño que nosotros le escribimos acá o se verá modificado, afectado? Vamos a mirar.
+Qué sucede? Vamos, Aqu, hartar y miren que nuestras cajita se está viendo afectar.
+Nosotros le habíamos puesto veinte píxeles de ancho, veinte píxeles de alto.
+Sin embargo, no, No respetó lo que nosotros estábamos diciendo porque LOS padrins siempre nos van a afectar este modelo de caja.
+Eso es una de las cosas que tenemos que tener siempre presentes aquí.
+En el modelo de casa podemos ver que tenemos del contenido de veinte píxeles.
+Sin embargo, el huir se va a empezar a sumar.
+Mire que cuando yo le acojo ver home pasó por encima este contenido.
+Vamos a ver que en el resultado a este lado sea empezar a formar una cajita de color azul.
+Ahí me está mostrando el contenido.
+Y cuando acojo ver encima de de padre.
+Pues me va a mostrar el respectivo paguen que tiene aquí podemos ver que me está sumando los veinte píxeles más el contenido.
+Esto siempre va a ser muy, muy, muy importante.
+Vamos ahora colocarle un borde de nosotros podemos colocarle el borde de la siguiente forma.
+Vamos a colocar le dos píxeles en el navegador siempre vamos a trabajar con píxeles.
+Siempre el navegador tiene esto, pero también hay otras unidades que las vamos a ver ahorita Los pixeles.
+Le vamos a colocar el tipo de borde que yo quiero.
+En este caso va a ser sólido, es decir, que va a ser una línea uniforme y le vamos a colocar otros color.
+Voy a venir aquí, a mi página y le voy a poner este Lo.
+Copio y lo pegó con el numeral.
+Le vamos a dar guardar, vamos a la página y re- Cargamos que sucedió mi Vim, que Kaká también nosotros le pusimos un borde y también se está viendo afectado nuestro de modelo de caja Acá.
+Tenemos que ya no tenemos el Week de veinte píxeles que teníamos al principio, sino que tiene estos veinte más de estos dos.
+Esto también es muy importante que lo tengamos.
+Cincuenta.
+Qué pasaría si yo no quiero que eso se vea afectado por Help Add? Y ni por el borde.
+Nosotros podemos utilizar una propia que se llama Vox.
+Hay sin Woods hay cine que me tiene que salir Vox hay Vim Border Vox.
+Eso quiere decir que me voy a respetar el tamaño que yo le con lo que desde el principio Vamos aguardar y vamos a actualizar acá.
+Como bien puedes ver nuestra cajita volvió a hacer del tamaño Kernel.
+Esto es porque ya le decimos que respete lo que nosotros estábamos metiendo desde el principio.
+Se lo vamos a quitar.
+Vamos a aguardar y vamos a ver nuestras cajita través grandes.
+Un Mardin siempre nos va a funcionar cuando tengamos otros elementos a los lados.
+No sé si de pronto te estarás preguntando qué significa este espacio sito que hay acá.
+Los las páginas por defecto tienen un margen.
+Esto es muy bueno y muy buenas prácticas que nosotros se lo quitemos siempre para que no se vean afectadas todas nuestras nuestras creaciones en el navegador.
+Vamos a colocar voz Vim y vamos a colocar le margen cero.
+Vamos a guardar y vamos a ver que ese espacio citó ya se nos quita siquiera se lo puedes dejar o se lo puedes colocar en mi casa.
+Se lo voy a quitar para que se vea un poquito y como mejor Ahora voy a colocar otro, dice Vamos a le Control + L seis Control + L, Rubén, Moya colocarle caja dos.
+Y aquí vamos a colocar le Caja uno.
+Vamos a cambiar acá.
+Aquí nuevamente.
+Vamos a crear una caja, en este caso, hacer caja dos.
+Vamos a colocar le también un buit Es de muy, muy Según.
+Va a tener treinta píxeles.
+Tenemos un High también de treinta píxeles.
+Y vamos a colocarle un background.
+Aquí no son dos punto cama, va gran color y nuevamente vamos a nuestra página.
+A ver qué otro color le podemos colocar.
+Este amarillito esta bonita.
+Se lo vamos a poner y le colocamos El.
+Numeral.
+Aquí vamos a mirar el resultado en el navegador.
+Vamos a actualizar y vemos que se nos creó nuestra caja con treinta píxeles y treinta píxeles.
+Vamos a mirar que los dos están muy pegaditos y como haríamos nosotros para que no estén tan pegados? Pues vamos a colocarle un margen ese margen.
+Lo vamos a colocar en en la caja uno también puede ser en la caja dos, como tú quieras que vamos a colocar Mardin y vamos a colocar le heridas pixeles.
+Vamos a guardar y vamos a ver el resultado.
+Como bien, no solamente se nos amplio en la parte de abajo, sino también al rededor.
+Eso es porque se Mardin, se toma en todos los lados.
+Qué pasaría si yo quiero que sea solamente abajo aquí en el mar Vim le colocaría Mardin Borón y solamente le colocó estos diez píxeles Hay Vamos a guardar, vamos a actualizar y vemos que la cajita sigue en su estado natural desde donde está por defecto.
+Sin embargo, solamente tiene un margen en la parte de abajo.
+Ahora, si queremos colocar le diferentes Martins lo podemos hacer siempre.
+Tenemos que tener en cuenta que esto es como un reloj.
+Va desde la parte de arriba y va en el sentido de las manecillas hacia la derecha Aquí empezaríamos por top.
+Es decir, que el valor del Martín de arriba sería diez píxeles.
+Vamos a colocarle al siguiente veinte píxeles Después treinta píxeles y cuarenta píxels.
+Vamos a guardar, actualizamos y vamos a mirar eso en el modelo de caja, como vemos en las muele casa.
+Entonces tenemos un Martín arriba de días, Pizza les veinte, treinta y cuarenta en el sentido de las manecillas del reloj Esto.
+También lo podemos hacer con el padre.
+Ya vimos el modelo ECA y su importancia.
+Sabemos a inspeccionar elementos y mirar su modelo.
+Encaja en el inspector.
+Ahora vamos a ver valores relativos y valores absolutos.
+También vamos a construir nuestro primer componente.
+Te veo en la siguiente clase..
+
+### Valores relativos y absolutos
+
+Hola en esta clase vamos a hablar sobre medidas absolutas media relativas y vamos a construir nuestro primer componente en nuestra aplicación Las medidas absolutas son, por ejemplo, estas que podemos ver Acá están los píxeles dos milímetros, los centímetros las pulgadas.
+Este tipo de unidades son absolutas precisamente porque no tienen en cuenta a nadie más.
+Es decir, que no se fijan en la medida de otro o en el tamaño de algún otro elemento para hacer ellas mismas.
+Por ejemplo, cuando estábamos nosotros en la clase anterior vimos que les colocamos subir de veinte píxeles Un Jay de veinte píxeles.
+Sin embargo, este estos pixela Ges se vieron representados en el navegador sin ningún problema.
+No se vieron afectados por nadie.
+Las medidas relativas se llaman precisamente así porque están relativas a otra unidad de medida o a otro elemento.
+Por ejemplo, en estas podemos encontrar los porcentajes en CDC se los vamos a encontrar muchísimo.
+También podemos encontrar Ve Max me me divirtió Jair todos esto les vamos a A continuación en el coche tenemos un archivo nuevo que se llama G DIR y nuevamente vamos a es que empezar a escribir nuestros Cowen Voy En este hoy vamos a colocar nuestra etiquetaje, ver por semánticas muy bueno que lo utilicemos.
+Entonces tenemos nuestro Gerd y vamos a colocar debajo de Get nuestra etiqueta esta para empezar a colocar los estilos.
+Vamos a colocar que ver como selector y vamos a abrir entre Chávez y Tags para empezar a escribir nuestros estilos.
+Acá le vamos a colocar un Week, pero ya no se lo vamos a colocar como medida absoluta, sino que se lo vamos a poner como me ha relativa Eso porque queremos que se ajuste a todos los niveles de pantallas que nosotros queremos.
+En este caso queremos que el Gener vaya de inicio a fin.
+Por eso le vamos a colocar que tome el cien por ciento de toda nuestra pantalla.
+Vamos a colocar le punto y coma y vamos a colocarle un Home.
+En este caso le podemos colocar ochenta píxeles.
+Vamos a aguardar.
+Aún no vamos a ver nada porque no tenemos ningún color.
+Vamos a Iraq al navegador.
+Efectivamente.
+No vemos nada.
+Y vamos a ir a esta otra página en donde podemos encontrar diferentes colores.
+En.
+Esta es K.
+Tengo ya el resultado del inicios.
+Es decisión de nuestra aplicación y vemos que el Jerez tiene un color como ver dos.
+Ese color no lo pasó el equipo de diseño y es este que está aquí precisamente.
+Solamente le vamos a dar click Vamos a co le comencé Vamos a nuestro código colocamos Help Accra on color y vamos a copiar este color nuevamente hemos colocarle el numeral Vamos a guardar, miramos en nuestro navegador y efectivamente, tenemos nuestro G, nuestra Gerd con el el huir y el High que le Establecimos Como vimos en la clase anterior tenemos un pequeño espacio que se lo vamos a quitar unos a colocarle body, abrimos llaves y entre estas llaves vamos a escribir Mardy cero punto y coma.
+Si quieres, le puedes colocar Pic seis.
+Vamos a guardar y vemos el resultado Ya Tenemos nuestro Jero Ya.
+Después de Steger podemos colocar algunas otras etiquetas.
+Podemos utilizar anidamiento nosotros en esta parte.
+Acá tenemos un logo de Platzi Este logo Help Latin.
+Te lo voy a compartir para que lo puedas colocar dentro de dentro del género.
+Aquí voy a colocar la etiqueta y MG para anexar imágenes Y mi ruta es la siguiente Tengo aquí el loco.
+Tú puedes ir a la ruta en donde descargas del archivo y toque te compartir.
+Voy a darle guardar y en ese ERE CD voy a colocar esta ruta.
+Vamos a dejarlo.
+Desde y Users han así está bien, Vamos a guardar y vamos a ver nuestro resultado.
+Vamos a ver que éste Luego está súper grande, pero nosotros podemos estilizar los Una de las formas que podemos utilizar para estilizar esta imagen es colocar, ceder y vamos a colocar y en México lo que quiere decir que este IMG es un hijo de de Ter.
+Vamos a colocar.
+Vamos a utilizar todas las imágenes que hayan dentro de esta etiqueta Jero así vamos a colocarle un buit Tienes de caso de dos cientos píxeles.
+Vamos a guardar y vamos a ver el resultado Cristo se nos vea y superbien Tags llenos de con el tamaño que nosotros queremos.
+Ahora lo que tenemos que hacer es entrar nuestro elemento de forma vertical.
+Vamos a mirar cómo lo podemos hacer.
+Acá.
+Vamos al en el inspector es muy bueno que también lo utilicemos.
+No siempre es como mirando el código.
+El inspector también nos puede ayudar para escribir nuestro código, tantear, probar y después hay si pasamos el resultado que ya nos guste al código.
+En este caso tenemos esta Imagina si le Home podemos colocar un pequeño margen arriba y le colocamos.
+No se veinte píxeles.
+Podemos colocar le.
+Bueno, fue mucho tonces empezamos a disminuir.
+Le Joaqu al Estoy disminuyendo con las teclas de mi computar del teclado.
+Puede que lo dejemos.
+Hay en diez píxeles.
+Está muy bien.
+Y también podemos colocar un mar Vim al lado izquierdo.
+Mardin Les CTO Aca le podemos colocar entonces diez píxeles y se nos ve super bien.
+Vamos a ver.
+Vamos a colocar estos dos Estas dos propiedades que lo acabamos de añadir y las vamos a copiar.
+Vamos aquí en nuestro código las pegamos.
+Guarda más Cuando refresque.
+Hemos deberíamos ver el mismo resultado.
+Tengo un reto para ti.
+El reto es escribir tu propio ceder.
+Steger lo puede hacer con los colores que más te gusten y lo puedes compartir en la sección de comentarios.
+Si tienes alguna duda, no dudes en hacerlo.
+Estamos los compañeros y yo para resolver cualquier duda o encontrar inquietud que tengas.
+Nos vemos en la siguiente clase.
