@@ -59,7 +59,7 @@ Pasos que sigue el navegador para construir las páginas web:
 
 <u>**5 tips para aprender CSS**</u>
 
-![](/home/diego/REPO/data/01.cfd/img/01-04_Tips_CSS.png)
+![](/home/diego/REPO/data/01.cfd/img/01-04_Tips_CSS.jpg)
 
 
 
