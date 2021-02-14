@@ -101,7 +101,7 @@ Anatomia de HTML:
 
 Al hacer en nuestro editor de código **html:5** vemos que nos aparece la siguiente estructura:
 
-```
+```html
 <!DOCTYPE
 <html lang="en">
 <head>
