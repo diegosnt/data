@@ -776,3 +776,82 @@ Steger lo puede hacer con los colores que más te gusten y lo puedes compartir e
 Si tienes alguna duda, no dudes en hacerlo.
 Estamos los compañeros y yo para resolver cualquier duda o encontrar inquietud que tengas.
 Nos vemos en la siguiente clase.
+
+## 4.Arquitectura CSS
+
+### ¿Qué son y para qué nos sirven las arquitecturas CSS?
+
+Hola.
+Comenzamos un nuevo móvil en nuestro curso Este módulo sobre Arquitecturas de ese Ese ese este tema es muy importante.
+Y curiosamente es un poco desconocido por los desarrolladores.
+Cuando nosotros trabajamos con Cdcs, nos damos cuenta de que tenemos una gran cantidad de líneas de CO y CO en nuestras clases.
+Hemos trabajado con cinco, diez líneas Sin embargo en los proyectos nos podemos enfrentar a quinientas mil dos mil líneas dependiendo el proyecto Te.
+Imaginas cómo sería tener todas esas líneas de juego en un solo archivo? Muy seguramente para nosotros que ya conocemos el proyecto sea un poco fácil Pero si llega otra persona ayudarnos va a ser un poco complejo poder entender todas esas dos mil líneas de código Para eso se crearon las arquitecturas de SSL Uno de los objetivos claros es que estas arquitecturas sean predecibles.
+Que quiere decir que sean predecibles? Si, establezco una regla.
+Esa regla debe cumplirse exactamente tal cual Como se dijo No, debo establecer una regla y que esa regla Add a otra cosa diferente Otra de las cosas importantes es que sea reutilizable.
+Todo nuestro código Sí, por ejemplo, tengo una clase que tiene un color y un mar Vim y voy a utilizar la en otro lado.
+La idea es que en ese otro lado, en ese otro elemento, no copie y pegue San esos estilos, sino que trata de ver la forma de como puedo reutilizar.
+Es el juego sin escribir más líneas Otra de las cosas, de los objetivos importantes es que el código sea mantenible.
+Qué quiere decir que sea mantenible? Si tengo esas dos mil líneas de código, creerías que esos mantenible? Muy seguramente no.
+Por qué? Porque si yo voy a llegar a hacer nuevas cosas, pues me tocaría.
+Posiblemente volverá.
+Copiaría pecar, ya se volvería un poco engorroso.
+Trabajar con él no sería mantenible.
+No? En un futuro sería muy difícil poder trabajar con estas dos mil líneas Asimismo llega la escalabilidad Si.
+Nosotros tenemos un archivo tan grande En un futuro va a ser muy difícil poder hacer que se ese archivo crezca de forma buena.
+En este caso podría crecer y crecer y crecer Pero se diría un afectadas varias partes en nuestra de aplicaciones, como por ejemplo el rendimiento Es.
+Así como estas, estos principios que acabamos de mencionar se van a ver reflejados en unas muy buenas prácticas.
+Entre esas buenas prácticas está establecer reglas Con el equipo? No, no basta con que yo se pasa reglas de arquitectura y mi compañero no las conozco porque hay vamos a empezar a chocar en el proyecto, donde es importante que ambos se sienten y empiecen a estructurar esas reglas con las que ambos van a trabajar.
+También está, explican, la estructura base.
+Si yo tengo una estructura base, ya tengo un proyecto avanzado y si alguna persona nueva es importante, que se le ve todo ese vacas y que se les de conocimiento que ya se tienen el proyecto, establecer estándares de codificación.
+Esos estándares los vamos a ver en la siguiente clase Por.
+Es importante que si establecemos algo también lo es.
+Hemos definido, sea al principio en un documento parte, pero que ya están definidas y no se rompan, porque si establecemos reglas y al final no las cumplimos, pues no estamos haciendo esto.
+Este tema de las arquitecturas de una forma vil, evitar largas, largas, hojas de estilo.
+Esto es muy importante para que, para que podamos tener un juego mantenible y escalable.
+Asimismo, en la documentación de hemos tener como muy buena práctica la documentación no quiere decir que línea por línea.
+Empecemos a explicar que esto es un color, que esto es una margen, que nada de eso La documentación se basa al principio o en ciertas cosas que pueden ser un poco complejas o no tan fáciles de comprender para otra persona que llegue en un futuro inclusiva para nosotros mismos.
+Nos decías pronto te ha pasado que escribes algo y a la semana lo va a saber y se hay yo porque escribí eso.
+Entonces es muy buena en la documentación, entonces, no siendo más vamos a ver el tema de arquitecturas.
+Vamos a ver o o si es es vamos a ver que es es mas ven entre otras.
+Así que allá nos vemos..
+
+### OOCSS, BEM, SMACSS, ITCSS y Atomic Design
+
+Hola.
+Comenzamos un nuevo móvil en nuestro curso Este módulo sobre Arquitecturas de ese Ese ese este tema es muy importante.
+Y curiosamente es un poco desconocido por los desarrolladores.
+Cuando nosotros trabajamos con Cdcs, nos damos cuenta de que tenemos una gran cantidad de líneas de CO y CO en nuestras clases.
+Hemos trabajado con cinco, diez líneas Sin embargo en los proyectos nos podemos enfrentar a quinientas mil dos mil líneas dependiendo el proyecto Te.
+Imaginas cómo sería tener todas esas líneas de juego en un solo archivo? Muy seguramente para nosotros que ya conocemos el proyecto sea un poco fácil Pero si llega otra persona ayudarnos va a ser un poco complejo poder entender todas esas dos mil líneas de código Para eso se crearon las arquitecturas de SSL Uno de los objetivos claros es que estas arquitecturas sean predecibles.
+Que quiere decir que sean predecibles? Si, establezco una regla.
+Esa regla debe cumplirse exactamente tal cual Como se dijo No, debo establecer una regla y que esa regla Add a otra cosa diferente Otra de las cosas importantes es que sea reutilizable.
+Todo nuestro código Sí, por ejemplo, tengo una clase que tiene un color y un mar Vim y voy a utilizar la en otro lado.
+La idea es que en ese otro lado, en ese otro elemento, no copie y pegue San esos estilos, sino que trata de ver la forma de como puedo reutilizar.
+Es el juego sin escribir más líneas Otra de las cosas, de los objetivos importantes es que el código sea mantenible.
+Qué quiere decir que sea mantenible? Si tengo esas dos mil líneas de código, creerías que esos mantenible? Muy seguramente no.
+Por qué? Porque si yo voy a llegar a hacer nuevas cosas, pues me tocaría.
+Posiblemente volverá.
+Copiaría pecar, ya se volvería un poco engorroso.
+Trabajar con él no sería mantenible.
+No? En un futuro sería muy difícil poder trabajar con estas dos mil líneas Asimismo llega la escalabilidad Si.
+Nosotros tenemos un archivo tan grande En un futuro va a ser muy difícil poder hacer que se ese archivo crezca de forma buena.
+En este caso podría crecer y crecer y crecer Pero se diría un afectadas varias partes en nuestra de aplicaciones, como por ejemplo el rendimiento Es.
+Así como estas, estos principios que acabamos de mencionar se van a ver reflejados en unas muy buenas prácticas.
+Entre esas buenas prácticas está establecer reglas Con el equipo? No, no basta con que yo se pasa reglas de arquitectura y mi compañero no las conozco porque hay vamos a empezar a chocar en el proyecto, donde es importante que ambos se sienten y empiecen a estructurar esas reglas con las que ambos van a trabajar.
+También está, explican, la estructura base.
+Si yo tengo una estructura base, ya tengo un proyecto avanzado y si alguna persona nueva es importante, que se le ve todo ese vacas y que se les de conocimiento que ya se tienen el proyecto, establecer estándares de codificación.
+Esos estándares los vamos a ver en la siguiente clase Por.
+Es importante que si establecemos algo también lo es.
+Hemos definido, sea al principio en un documento parte, pero que ya están definidas y no se rompan, porque si establecemos reglas y al final no las cumplimos, pues no estamos haciendo esto.
+Este tema de las arquitecturas de una forma vil, evitar largas, largas, hojas de estilo.
+Esto es muy importante para que, para que podamos tener un juego mantenible y escalable.
+Asimismo, en la documentación de hemos tener como muy buena práctica la documentación no quiere decir que línea por línea.
+Empecemos a explicar que esto es un color, que esto es una margen, que nada de eso La documentación se basa al principio o en ciertas cosas que pueden ser un poco complejas o no tan fáciles de comprender para otra persona que llegue en un futuro inclusiva para nosotros mismos.
+Nos decías pronto te ha pasado que escribes algo y a la semana lo va a saber y se hay yo porque escribí eso.
+Entonces es muy buena en la documentación, entonces, no siendo más vamos a ver el tema de arquitecturas.
+Vamos a ver o o si es es vamos a ver que es es mas ven entre otras.
+Así que allá nos vemos..
+
+
+
