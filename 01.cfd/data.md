@@ -57,7 +57,7 @@ Pasos que sigue el navegador para construir las páginas web:
 
 ### 5 tips para aprender CSS
 
-![](img/01-04_Tips_CSS.jpg)
+<img src="img/01-04_Tips_CSS.jpg" style="zoom: 50%;" />
 
 
 
@@ -118,7 +118,7 @@ Al hacer en nuestro editor de código **html:5** vemos que nos aparece la siguie
 
 Veamos la descripción de estos elementos:
 
-![](img/02-04_html.jpg)
+<img src="img/02-04_html.jpg" style="zoom:67%;" />
 
 Si por ejemplo queremos añadir en nuestro documento estilos o JavaScript, lo hacemos con las etiquetas <style> y <script> respectivamente, que a su vez deben ir dentro de la etiqueta raíz <html>, algo así:
 
@@ -145,15 +145,15 @@ Si por ejemplo queremos añadir en nuestro documento estilos o JavaScript, lo ha
 
 Descripción de algunos elementos vacíos:
 
-![](img/02-05_html.jpg)
+<img src="img/02-05_html.jpg" style="zoom:67%;" />
 
 Descripción de las etiquetas semánticas para la estructura base de nuestra página:
 
-![](img/02-06_html.jpg)
+<img src="img/02-06_html.jpg" style="zoom:67%;" />
 
 Descripción de otras etiquetas muy usadas:
 
-![](img/02-07_html.jpg)
+<img src="img/02-07_html.jpg" style="zoom: 67%;" />
 
 
 
@@ -187,7 +187,7 @@ Ya conocimos la importancia de hacer nuestro HTML de forma semántica. Así que,
 
 A continuación te mostraré un código HTML y la idea es que tu lo organices de forma semántica, es decir, que uses las etiquetas más adecuadas.
 
-![](img/02-09_reto.jpg)
+<img src="img/02-09_reto.jpg" style="zoom: 67%;" />
 
 
 
@@ -304,7 +304,7 @@ No olvides resolver el desafío: crear tu propio header con las etiquetas y esti
 
 Todos los elementos en CSS son cuadrados o rectángulos y aparte de eso, estos elementos tienen un comportamiento que se define a través de la propiedad display. Los display más comunes y usados son: block, inline, inline-block, none, table, flex y grid. Veamos de qué se tratan:
 
-![](img/03-07_display_css.jpg)
+<img src="img/03-07_display_css.jpg" style="zoom:25%;" />
 
 
 
@@ -395,7 +395,7 @@ div { position: absolute: right: 0px; }
 ```
 La propiedad position tiene 7 valores diferentes: relative, absolute, fixed, sticky, static, initial e inherit. Veremos de qué se tratan:
 
-![](/home/diego/REPO/data/01.cfd/img/03-08_posicionamiento_css.jpg)
+<img src="/home/diego/REPO/data/01.cfd/img/03-08_posicionamiento_css.jpg" style="zoom:25%;" />
 
 
 
