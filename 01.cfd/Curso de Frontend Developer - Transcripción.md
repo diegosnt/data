@@ -854,4 +854,440 @@ Vamos a ver o o si es es vamos a ver que es es mas ven entre otras.
 Así que allá nos vemos..
 
 
+## 5. Construcción de componentes
+### ¿Qué es un componente? Analicemos nuestros diseños
+
+Hola, Mi nombre es Stefan Eguilar.
+Soy la profe.
+El curso Afronten Developer de la escuela Ella Maastricht En esta clase pública.
+Vamos a aprender que es un componente y vamos a identificarlos dentro de nuestra aplicación.
+Un componente básicamente es un elemento muy pequeño que podemos utilizarlo más adelante para construir futuros componentes.
+Por ejemplo, vamos a pensar en Lego.
+Si nosotros compramos un Lego, nos vamos a dar cuenta que tenemos una cantidad de fichas y que para construir el resultado final debemos unir esas piezas Asimismo funciona nuestra aplicación.
+Debemos coger esos componentes unirlos y así mismo empezará a formar las vistas de nuestra aplicación Ahora.
+Tenemos un proyecto que se llama Platzi Vídeo.
+Vamos a mirar la vista y vamos a identificar qué componentes podemos sacar de ahí.
+Esto es muy importante que lo hagamos antes de escribir nuestro código para que nos facilite mucho más del desarrollo.
+En este caso tenemos un carro.
+Se lo voy a señalar aquí de color rojo Este sería el componente principal o el contenido? El contenedor quería Carrousel acá tenemos un ítem desde carros ser.
+Vamos a señalarlos para identificarlos.
+Y dentro de ese ítem vamos a ver que tenemos unos iconos, básicamente puede ser los mismos Sin embargo, le vamos cambiando la imagen, sin embargo, sigue siendo el mismo componente icono.
+Acá tenemos un título.
+Sería un texto principal principal y esto sería un texto secundario.
+Si lo notamos es de título principal.
+Es muy similar al que hay en el Führer y al que hay acá.
+Tiene el mismo tamal.
+Podemos reutilizarlos y decir que este también es un texto principal.
+Ésa es básicamente la idea de los componentes que lo logremos identificar y mirar en donde lo podemos volver a utilizar Ahora miremos el G DIR que sería estado a Rita superior.
+También tenemos un y logo y así mismo tenemos un menú.
+Desplegar este meno también lo podemos utilizar más adelante Finalizando Tenemos un input que es el buscador principal de toda la vista de Plachy vídeo y le podemos colocar simplemente buscador este buscador.
+Aunque lo utilicemos solamente en la vista principal, es muy importante que también lo tengamos cincuenta como componen Después de tener identificados nuestros componentes, lo que vamos a hacer es pasarlos a nuestro código.
+Una de las opciones que tenemos es tener una carpeta que se llame componen y dentro de él de ella.
+Tener otros Folder s con el nombre de cada uno de los componentes que identificamos, por ejemplo, y buscar el buscador tendría dentro todos los archivos de Javascript de HTML y de seis es claro está, dependiendo del lenguaje que utilices o de la librería por el freno.
+Pull Otra opción es utilizar History Dotx cual Story Push Podemos tener una documentación muy amigable y visual de todos los componentes.
+Lo único que tenemos que hacer es instalar History Pull PKG y después correrlo con el comando N P M Ranch History.
+Poco después de correr esta comandos se nos va a abrir una ventana y vamos a experimentar como si estuviéramos en una librería, como si hubiéramos creado una librería de nuestros propios componentes.
+Lo que podemos hacer ahí es interactuar con ellos, darle click, mirar qué opciones tiene que colores, etcétera.
+Es muy agradable utilizar History poco para nosotros.
+Como desarrollarse.
+Todos los componentes son muy buenos utilizarlos precisamente porque nos ayudan a optimizar el código, nos permiten reutilizarlo y se ve mucho más agradable tanto para nosotros como desarrolladores como para alguna otra persona que llegue nueva el proyecto Mira todo lo que aprendiste en una sola clase aquí.
+Te voy a dejar el en las del curso para que sigas aprendiendo.
+También te voy a compartir un vídeo.
+Relaciona Y no se te olvide suscribirte a nuestro canal..
+
+### Estructura con HTML y BEM de un menú desplegable
+
+Hola en esta clase aprenderemos a crear un menú desplegable.
+Para ello vamos a ver la vista principal de nuestro proyecto para ver de qué se trata.
+Tenemos Platzi vídeo y en la parte superior derecha vamos a ver un menú desplegable este acá justamente cuando le damos Jover con nuestro Maus Vamos a darnos cuenta que tenemos dos ítems.
+En este caso es cuenta y cerrar sesión.
+Este efecto lo vamos a aprender a hacer en esta clase Anteriormente teníamos un código como este, teníamos un GB y dentro de él una imagen.
+Vamos a ver como SE de nuestro navegador EST debería ser el resultado.
+Sin embargo, podemos ver que en Platzi Video el Fondo ha cambiado Ya no es este verde, sino que es este Murado.
+Lo que vamos a hacer es ir nuevamente a la paleta de colores que ya habíamos visto en clases anteriores.
+Vamos a copiarnos, es de color morado desde el más clarito y lo vamos a pegar aquí donde dice genera para que todo que con este mismo color De la misma forma lo vamos a poner en el body para que corresponda con el color de nuestra de nuestra vista principal vamos a ir a Buscador.
+Vamos a actualizar Y efectivamente, ya tenemos algo muy parecido a lo que tenemos en Platzi vídeo.
+Muy bien, vamos a a empezar con nuestro menos como bien vimos, trabajamos con Ben.
+Entonces vamos a seguir con esta misma metodología.
+Entonces aquí la clase del Heaven sería Ger.
+Le vamos a colocar aquí un punto para que corresponde con esa clase.
+Y en imagen vamos a colocar una clase que va a ser Recordemos que ven significa bloque elemento modificador.
+Aquí sería GB del Bloque M es el elemento sería imagen.
+Te vamos a colocar IMG Así aquí le le pondríamos un punto y un iríamos estas dos palabras con guión bajo bien bajo.
+Vamos a guardar y mirar que eso esté funcionando perfectamente.
+Muy bien, aquí abajo, después de y MG vamos a colocar un dit que se va a hacer el Papa o el contenedor de nuestro menos colocamos la clase.
+Vamos a colocar le ceder y Home bajo Debian bajo meno Vamos, A Y aquí el CSS y vamos a escribir esta clase G y un bajo quien bajo minutos.
+En este momento este contenedor no tiene ningún efecto.
+En parte en particular.
+Sin embargo, le vamos a colocar un margen porque si nos damos cuenta tiene un pequeño espacio entre el elemento y el borde final de la pantalla.
+Lo que vamos a hacer es colocar un margen en esta parte.
+Vamos a colocar le Martin Gray treinta píxeles.
+Listo.
+Ya tenemos un mar Vim en nuestro contenidor seguido.
+Esto vamos a tener dos partes fundamentales.
+Tenemos donde dice perfil y la parte donde dice cuenta y cerrar sesion.
+Lo vamos a envolver en dos contenedores diferentes.
+Entonces tenemos un diez en este Edit.
+Vamos a colocar la clase que sería y Kuala esta Germeno Sin embargo, le vamos a colocar, pero falló que eso significa el perfil, precisamente el usuario dentro de ese perfil vamos a ver que tenemos una imagen.
+Ya miramos de donde sacamos de esa imagen y luego vamos a colocar la palabra perfil Vamos.
+Acuerda? Y vamos a ver qué es lo que estamos haciendo.
+Muy bien, Tenemos perfil.
+Nos hace falta la imagen Esta.
+La podemos sacar de esta página que es y con ocho vamos a colocar aquí.
+Yo ser.
+Le damos enter y nuevamente no salen un montón de de iconos.
+Lo que vamos a hacer es seleccionar el que más nos guste.
+Por ejemplo, este.
+Y le damos descarga.
+Cuando leemos descargar el nos pregunta en qué formato, en este caso, vamos a escoger PNG y el píxel AG puede ser el que nosotros queramos, porque porque vamos a cambiarlo de todas formas, con ceses, en este caso, dieciséis píxeles Go treinta estaría perfecto.
+No le voy a descargar porque yo ya la tengo aquí, en el proyecto.
+Lista.
+Voy a seleccionar la ruta.
+En este caso sería apuntes las este punto Slash quiere decir que la imagen está al mismo nivel del archivo.
+Htm Help.
+Aquí ya me sale por una ayuda.
+Vamos a colocar y Usher.
+John, Hay con y aquí, en el All.
+Vamos a colocar le y Users.
+Tú puedes colocar le el que más de gusta.
+Yo nos Aware tar y vamos a ver en buscar qué es lo que no salió perfectamente.
+Ya tenemos.
+Ahí está parte del lobo con el nombre.
+Muy bien, seguida está.
+Vamos a tener otro contenedor.
+Va a ser una lista.
+Y en esta lista vamos a tener unos items con unas con unas etiquetas A porque lo colocó como a precisamente porque cuando le demos clic a esa lista me tiene que direccionar a otra parte.
+Por eso estamos haciendo como un buen uso en la semántica.
+Utilizando esta a aquí voy a colocar una ruta por defecto, que sería la ruta inicial Ese sería como el Home o la pantalla principal.
+Vamos, A.
+Le Control + L se Control + L B y dentro de estas etiquetas donde sacó el Oscar? Entonces cuenta y cerrar sesión.
+Listo.
+Vamos a guardar y veamos cómo vamos Hay muy bien.
+Listo.
+Lo que vamos a hacer es empezar estilizar En este caso voy a colocar le Aca debajo de gener.
+Menú.
+Vamos a copiar.
+No sea pegarnos de eso para que sea un poco más más fácil para nosotros un estar copiando.
+Gerd que han bajo en bajo.
+Listo, Vamos a colocar menos y Profile.
+Vamos a aguardar y listo, que tendríamos que colocar en este en este Profile.
+Vamos a colocar de pronto margen para que tenga de pronto un espaciado comandos a Jolo carne, entonces un mal Vim Git o un espaciado entre la imagen y el texto.
+Entonces vamos a colocarles en Mardin Ray de ocho, ficha les y abajo.
+Le vamos a colocar un Where de cuarenta pizza les puede ser lista.
+Vamos a guardar.
+Ahorita miramos entonces el resultado Vamos a seguir.
+Por lo pronto con esta parte del menú.
+Con esta parte de la lista es muy importante que tengamos en cuenta que la Lisa se va a ver en un momento, pero en otro momento no.
+Vamos entonces a estilizar esta lista.
+Moda colocar puede ser aquí a Rita para que tengamos coherencia con lo que estamos viendo acá.
+Es decir, que yo aquí Vea y MG y aquí estoy, DMG y abajo, menú menos a que siga la misma línea.
+No, que primero este emerger Profile después por allá.
+Gernot que tengan la misma niño.
+Vamos a colocar entonces he quien bajo quien bajo menú Y como no le hemos colocado una clase a este vamos a colocar le simplemente el huele.
+En este caso sería ideal que le colocáramos un display, no un para que no viéramos nada de esta lista por el momento vamos a mirar qué es lo que sucede? Vamos a recargar y efectivamente, no estamos viendo una.
+Vamos a empezar estilizar, pero para ver el estilo.
+Pues vamos a comentar esto por un momento Vamos a quitarle eso esas Puntí coso bolitas que vemos en la lista que no sale por defecto y se lo vamos a quitar con esa propia Linux estado Colocamos Gnome guardamos y miremos que ya aquí no están esos en esos politicos Vamos a colocar también un padre porque ellos por defecto lo tiene y se lo vamos a quitar, le vamos a decir Pau cero Pit seis.
+Este huele por defecto en lo miramos, Vamos a inspeccionar.
+Vamos a seleccionar este elemento.
+Bueno, si no nos agarra, pues vamos a venir aquí el inspector Colocamos, huele y miramos que tenemos de color verde Help Add en que está justamente en esta parte.
+Se lo vamos a quitar, Se lo quitamos precisamente con este padre.
+Cero pic seis.
+También vamos a colocarle una posición absoluta para que posiblemente más adelante empecemos a posicionarlo como nosotros queramos en relación al bar.
+Vamos a cogerlo, Cat le absoluto le son.
+Vamos a colocar le también un buit de si en píxeles Y vamos a alinear el texto, porque si vemos aquí cuando hacemos joven el texto se alinea justamente de esta parte hacia ya.
+Entonces lo vamos a hacer igual para acá.
+Vamos a colocar en Text Alain y Crouch.
+Como es acortar y vamos a refrescar.
+Listo? Ya no tenemos desde Padín y el texto está alineado a la derecha.
+Lo que también podemos hacer es colocarle un margen negativo a este lado porque porque cuando yo le hoy aquí el se sale justamente de él empieza el dia K, pero quiero que se me corra un poco más de para ya y que empiece justamente en esta línea.
+Entonces acá ya no quiero que empiece desde aca, sino que empiece a la raíz de donde dice perfil para eso.
+Entonces lo que debemos hacer es colocar.
+Comenzaba quitar este display.
+Vamos a colocar entonces un mal alguien? Vamos a colocar cero píxeles en arriba, a la derecha abajo y ya sería cuanto menos catorce pixeles, más o menos.
+A este la vamos a refrescar y vamos a ver si efectivamente nos cogió el Martín sería este ley o que hay no lo coge.
+Sin embargo, el como ya está al límite, pues no va a ir hasta ya.
+Lo que tenemos que hacer es posicionar estos elementos para que ella tenga en cuenta esta posición relativa.
+Bueno, hemos terminado esta parte de la estructura de HTM l Hemos estilizado algunos componentes, pero vamos a seguir en la próxima clase para estilizar toda la lista y dejar completamente liso nuestro menos..
+
+### Estilizando nuestro menú desplegable con CSS
+
+hoy en nuestra clase anterior hicimos todo el menú desplegable en HTML Estiliza mos un poco, pero aún nos queda faltando.
+Vamos a comenzar con esta parte que nos quedó faltando de nuestras que hace anterior aquí en nuestro código ya tenemos el Germeno medio y tenemos el profe.
+Vamos a mirar en qué quedamos? Vamos a refrescar.
+Quedamos en esta sección y justamente lo que queremos es que este perfil llegue a esta esquina así como nos muestra el original.
+Vamos entonces a utilizar una especificación muy que nos puede ayudar muchísimo, que es Flex pocs para utilizar Flex pocs.
+Tengo esta guía.
+Lo único que tenemos que saber es que tenemos que utilizar this play Flex y alinearlo Schilling elementos con dos propiedades que ya te las voy a comentar en el momento.
+No importa si no entendemos absolutamente toda la especificación.
+Eso lo vamos a ver en más detalle, más a él han En Jer.
+Vamos a colocar entonces Display ya no le colocamos en la en sí, lo que les colocamos Flex y el contenedor, que en este caso del Jerez tiene que alinear esos elementos.
+Para eso vamos a utilizar Yuste Fay content y le vamos a colocar, estéis min TTY.
+Eso lo que nos va a ser es que nos va a colocar estos dos elementos con un espacio en medio, así como nos dice también esa propiedad Listo.
+Esto es por el momento, lo que necesitamos para que se nos ubique es elemento justamente en la esquina.
+Muy bien, ahora vamos a ver que cuando le hacemos joven necesitamos que no salga eso en fin, vamos a hacer Sjoeberg aquí, en la parte de abajo, donde está el duelo.
+Vamos a colocar otra clase que se va a llamar header y un bajo guión bajo menú.
+Y ahora sí vamos a hacer uso de nuestra pseudo classe.
+El joven.
+Queremos que cuando acabamos Jover en este menú todas las el EU esto es lo que quiere decir estoy acá.
+Vamos a colocar que también cuando le damos joven a los el EU, es decir, cuando yo le haga joven a este lo que va a tomar esa propiedad son estas duele, sin embargo, estas huele al hacerle joven.
+También va a suceder lo que vamos a escribir aquí adentro, que en este claro caso es una línea de código, no más, que es colocar le display Blog porque colocamos eso? Porque justamente cuando nosotros le dijimos a él que no se mostrara necesitamos que las del joven se muestre.
+Y este es el efecto que logramos cuando colocamos Display, No? Y display Blog.
+Vamos a aguardar.
+Vamos a ver el resultado.
+Efectivamente, no tenemos nada.
+Nos acercamos y aparece en nuestro o el muy bien Vamos entonces a estilizar nuestros l y que no están como visualmente iguales.
+Entonces lo que vamos a hacer es colocar punto G DIR meno que un bajo bien bajo menos.
+Y vamos a utilizar los de ley con vamos a colocar un margen porque porque soy un poco pegadita.
+Vamos a colocar Martín dos puntos, diez píxeles y cero pixeles.
+Eso qué quiere decir? Cuando solamente colocamos dos es tema para el Top y para el borrón.
+Y está ya capa para leer y para el mar.
+Vamos, acuerdo.
+Tar visto ya no se sientan juntos los dos.
+Muy bien.
+Ahora vamos a utilizar lo que está dentro de los Lake.
+En este caso son a Colocamos nuevamente.
+Esto mismo.
+Vamos a darle Command + L CD comande.
+Aquí cogemos de la que le vamos a borrar esa propia.
+Muy bien.
+Vamos a colocarle un color en este caso, hacer blanco para que siga en la guía que nos está indicando el la aplicación.
+Y vamos a colocar le también un texte con ella, porque por defecto todas las A tienen una línea por debajo y no lo queremos.
+Queremos que esté limpio.
+Vamos a colocar le .txt.
+Corrección, no.
+Y con eso vamos a quitar esa línea que no sale por defecto Visto.
+Ya tenemos esto, Sin embargo, si lo puedes notar, vemos que estas letras son muy diferentes a las que estamos utilizando.
+Acá hay un una página que me gusta mucho, que se llama Cuba.
+Alfons Tengo.
+Bueno, Fat, vamos a buscar el tipo de letra de nuestra aplicación, que en este caso se llama mi Elio.
+Listo, ya la tenemos.
+Después de tenerla, le damos clic aca.
+En este más nos va a salir la familia seleccionada y lo que tenemos que hacer es copiar este link.
+Esto es super importante y lo vamos a pegar justamente en el jefe de nuestra aplicación.
+Vamos a colocar la hay y también nos hace falta colocar esto.
+Que es Fone Feeder, le vamos a copiar y lo vamos a pegar justamente en el Voy para que todas las letras de nuestra aplicación, que con este tipo de letra vamos a coartar.
+Y vamos a ver, no nuevamente nuestro buscado muy bien, ya acogió las letras igualitas a las que tenemos en la aplicación.
+Listo.
+Entonces necesitamos que a las del joven también en el duele en la lista.
+Pues si nos quería incierto, porque si yo le hoy Click, yo hago Jover acá y acá no? Pues nunca voy a poder seleccionar esto.
+Sin embargo, nosotros ya hicimos es el inconveniente.
+Es este perfil que está acá.
+Tenemos que subirlo como lo subimos solamente colocando display Flex.
+Vamos a ver ese resultado acá ya lo pasamos en código.
+Muy bien.
+Cuando le damos acaba joven, efectivamente, ya me dejaría pasar aquí a cuenta y a inicio de sesión Listo.
+Entonces vamos a hacer eso mismo aca vamos a ir a germen un profano Y aquí mismo les colocamos Display y Flex también cuando le colocamos desde mayo.
+Ahí te pronto no fue lo mejor, porque bueno, se nos esconde bastante y con entonces los que vamos a hacer es han ampliarles en margen para que desde Mardin bueno, nos deje ver lo que estamos haciendo.
+Vamos a inspeccionar acá y vamos a subir le a este mar Vim a ver hasta dónde es que queremos.
+Lo podemos dejar en sesenta presentó estaría bien y así ya podemos venir a este a este joven Bueno, vamos a copiarnos de esta propiedad.
+Marginó Wright, coman C, Vamos, Ager menú y se lo vamos a y se la vamos a cambiar.
+La copie En.
+Ese no era y es el Este CTO ya no son treinta, sino que son sesenta Vamos Aguardar, refresca, Moss y listo.
+Perfecto.
+Ya tenemos nuestro nuestro menos bueno, despues de eso, lo que nos queda es que también cuando le hagamos joven a a este se nos presente esa línea que queda por deba.
+Miremos acá, le damos acá, Jover y cuando venimos acá, vamos a darnos cuenta que tenemos una línea por debajo Al hacer Jover vamos a hacer ese mismo afecto.
+Venimos nuevamente a nuestro código.
+Colocamos Get her en quien bajo bien bajo meno y vamos a colocar ley a que Entonces esto indica que los elementos a que están dentro de ley que están dentro de esta clase Vamos a abrir nuevamente y le vamos a colocar entonces a Bueno, aquí nos falta el joven precisamente porque es justamente cuando hace joven y en esta parte le vamos a colocar nuevamente esa propiedad que se la quitamos acá cuando da copiarle a pegar la mejor copiamos, pegamos y ya no sería no, sino que sería Wonder.
+La vamos a guardar, refresca, Moss y listo.
+Cuando hacemos Jover tenemos ese efecto en esa línea.
+Cita dio nos queda faltando colocar este perfil también de color blanco.
+Y si lo notamos, cuando de perfil saltamos a cuenta, se nos escapa.
+Eso es porque este logo que tenemos acá está muy grande.
+Vamos a también hacerlo más pequeño y con eso daríamos finalizado nuestro menos en esta parte de acabamos más a colocar.
+Bueno, copia monos aquí Eso, nos aplicarlo y vamos a eliminar todo eso.
+Listo en Profa Y yo quiero la imagen.
+Entonces ahí vamos a darle enter y escribimos un Marchi marginó.
+Hay más de cuarenta.
+Pongamos le ocho píxeles.
+Tuvo para que haya un espacio cita.
+Y también le vamos a colocar un Windows Es.
+El Whit sería cuarenta píxeles por ahora estamos intentando ver cuál sería el resultado.
+Bueno, no está como Como.
+Bien, entonces lo que tenemos que hacer es precisamente a este container le podemos colocar.
+Podemos intentar Alain hay tens se enter y vamos a colocarle a este Profile a la imagen le vamos a colocar un Jair a ver familia cuarenta píxeles.
+Listo.
+Muy bien, Vamos a hacer esto mismo.
+No saberse haciéndole joven, ya nada.
+Entonces lo que vamos a hacer es quitarle precisamente un mar Vim que tiene este párrafo de acá es de marcha.
+Es es que no se está evitando hacer eso.
+Vamos, A.
+Y con este PP le vamos a decir Mar Vim cero pixeles.
+Listo? Vamos a ver, más o menos listo lo que necesitamos.
+Desde entonces con locales EP que sería el texo Un margen de cero, dices Vamos a buscar ese párrafo.
+Sería acá desde el menú profa y copiamos y pegamos eso.
+Vamos, A en vez de imagen le vamos a colocar P y le vamos a colocar un margen de cero pixels.
+Listo.
+Con ese margen de cero pixeles nos quedaría ya vivita.
+Eso tambien lo podemos ubicar Muchísimo mejor con Flex posó entonces también miremos como lo podemos hacer.
+Pero ya que tenemos destape acá demo- le vivir y vamos a dar el color.
+Cuál No está blanco porque listos, carnet, huir, sino que es color como ES acuerda dar Vamos a darle ca y listo.
+Hacemos joven y precisamente podemos hacer eso con fácilmente.
+Lo único que nos queda es esta esta estructura que es conflicts Vox ya eso lo podemos organizar muchísimo mejor si lo utilizamos en este eje.
+Ver lo que podemos hacer es colocar una alineación de los ítems de forma centrar.
+Listo, Eso mismo lo tendríamos que hacer en este contenido.
+Entonces con los que hemos de esa propiedad que colocamos en GB, que es Alain, hay tens nos acopiar la La.
+Vamos a colocar a Can el ceder para que nos Aline los elementos de forma vertical.
+Y también lo vamos a hacer en el contenedor de la imagen y el Text, que en este caso sería Germeno Profile no vamos a colocar por acá.
+Vamos a colocar al hay, hay tensa enter y vamos a guardar listo.
+Ya tenemos nuestro menú.
+Sin embargo, miremos que tenemos acá un pequeño salto sabios.
+Me poso acá y no me sale en estas listas de o era algo que puede estar fallando ahí.
+Vamos a revisar qué es lo que puede estar pasando.
+Vamos a hacerlo con el inspector.
+Vamos a colocar acá justamente cuando hacemos joven.
+En eso es que tiene que pasar lo otro.
+Lo que aquí estamos viendo que es como si Germeno Profile tuviera solamente una imagen.
+Pero no, él también tiene un perfil.
+Nosotros le pusimos aquí un Whit.
+No le vamos a colocar este Whit, sino que lo vamos a dejar así para que el dato me tanto la imagen como el perfil.
+Posiblemente mientras hacíamos esto con la imagen se nos fue justamente en esta clase y no era y sino en la imagen, pero en ese tipo de cosas pueden pagar Aca en Profile.
+Vamos a quitarse la vamos a guardar y vemos que también se nos amplios de Mardin.
+Entonces le hayamos puesto sesenta píxeles.
+Vamos a buscar esos sesenta pizza.
+Les podemos colocar como han EFE Colocamos sesenta pieds es Y aquí te nos muestran donde es Lo podemos hacer directamente acá O podemos abrir esta flechita, colocar treinta PX y le vamos a Can reemplazar todos los que tengan sesenta píxeles y ya no lo cambio.
+Vamos a cortar, vamos a refrescar y vamos a ver el resultado.
+Muy bien, ya.
+Y ya tenemos nuestro menos.
+Bueno, hemos creado un menú en la siguiente clase.
+Vamos a hablar sobre un buscador.
+Vamos a también.
+Code Add.
+Lo íbamos a mirar.
+Que funcione correcta..
+
+### Creación de un buscador
+
+Hola en esta clase aprenderemos hacer un buscador.
+Vamos a mirar en nuestra aplicación de Platzi biberón para ver de qué se trata.
+Tenemos entonces nuestra aplicación de Platzi vídeo y nuestra buscador sería precisamente este que tenemos acá.
+Vamos a colocar le también este texto.
+En la clase anterior quedamos en el menú desplegable.
+Lo que vamos a hacer es darle en Perth y vamos a empezar a escribir debajo este G.
+Vamos a hacer una sección y dentro de esa sección vamos a tener precisamente En un título.
+Y este elemento, que es un imputó Acabamos a colocar entonces un H dos El nivel de importancia.
+Este texto no es tan grande.
+Entonces no le vamos a colocar H uno, sino que le vamos a colocar a Chidos dentro de este.
+Le vamos a escribir lo que lo que tiene ahí.
+La pregunta que sería que eres.
+Ve hoy listo.
+Seguido.
+Eso iríamos con él.
+Imputó muy bien este impute es de tipo texto y se quedó eso Tendríamos que añadirle algo más.
+Este imputó.
+Vamos, acuerdo.
+Tar vamos a mirar aquí el resultado liso.
+Tenemos nuestro título y el input Sin embargo, podemos ver que tiene acá como un texto interno que dice buscar.
+Vamos a agregarse lo también ese texto interna se llama Play Volver.
+Lo vamos a describir acá y le decimos Bush punto, punto punto.
+Vamos a guardar y miremos el resultado.
+Muy bien, Listo.
+Ya nos queda.
+Es colocarle las clases y empezar estilizar como tal.
+Esto ya sería todo nuestro htm.
+Vamos a darle Class.
+Y acá vamos a colocar le me, tú le puedes colocar la clase que ese esa clase vamos a colocar.
+Le entonces el bloque que sería mail y vamos a hacer alusión a este elemento desde el elemento.
+En este caso sería un título Para input sería algo similar.
+Vamos a colocar el bloque y vamos a colocar el imputó Muy bien.
+Vamos a guardar aquí no veríamos absolutamente nada.
+Muy bien.
+Hemos cambiado en la Bueno, empezamos a escribir nuestros estilos de banjo.
+Es de germen, un profano.
+Empezamos con mail Este sería nuestro contenedor.
+En este caso nos tocaría alinear los elementos de formas, entrada a lo horizontal y a lo vertical.
+Sin embargo, no hemos visto Flex voz y no quiero que lo hagamos todavía.
+Y lo vamos a hacer en la clase de Flex Push.
+Sin embargo, le vamos a colocar entonces un High y lo vamos a tener listo para nuestra clase de PL ESP.
+Os vamos a guardar y vamos a empezar estilizar el H dos con entonces la clase sita que sería Me Quién pagó quien bajo con ello vamos a abrir Chaves y justamente le vamos a colocar un color que es blanca y abajo Vamos a escribir un fons A Hizo un poco más pequeño porque se nos está pasando un poquito y vamos a colocar veinticinco píxeles.
+Esto también depende del gusto tuya.
+Puntos de le puedes colocar el tamaño que es es a mí me gusta veinticinco pixeles.
+Pero si lo quieres dejar asi, grande, lo puedes hacer listo.
+Después de esto vendría la estilización de nuestro Imputó.
+Le podríamos dejar esta clase Estaría muy bien.
+Sin embargo, lo amarra.
+Haríamos un poco a la jerarquía de mí.
+Es decir si yo quiero utilizar este input después no lo podría hacer porque ya estaría anclado a esto, A esto que estamos haciendo? Entonces le voy a quitar este mail y lo vamos a dejar solamente input.
+Ya tenemos claro en la estructura.
+Deben, pero lo vamos a quitar por si lo vamos a utilizar en algún en alguno, en algún otro momento.
+Y vamos a abrirlo.
+Y vamos a empezar estilizar lo todos tenemos una forma diferente.
+Comenzar.
+A mí me gusta de pronto comenzar como con los colores, con el porte, con etcétera, como lo que se me vaya dando.
+Pero si tú quieres empezar por el tamaño o después de lo que aquí adentro lo puedes hacer con total libertad, entonces vamos a colocar en el input un porte.
+En este caso le colocamos entonces borde, sería dos píxeles sólido.
+Y también le vamos a colocar.
+Que sea el borde de color en blanquito por defecto.
+Tiene como una especie de de grises y toque no se alcanza a ver muy bien, pero bueno, ahí está.
+Vamos a guardar.
+Vamos, Arlette guardar aquí aún no se nos ha.
+No se nos ve como correctamente ese Bor te, pero bueno, es porque es blanco.
+Y también el lo de Add entre el blanco.
+Pero bueno, listo.
+Ya tenemos desde Word, te vamos a Colo a redondear.
+Lo lo vamos a hacer con Border, re- radios y le vamos a colocar veinticinco picha.
+Les vamos a guardar y a refrescar acá.
+Muy bien, ya tenemos ese borde sito que necesitamos.
+También le pues de tantear podemos acá inspeccionar y mirar desde acá el valor que nosotros deseamos.
+Yo esto lo hice previamente entonces de uno es de que y le Push del veinticinco.
+Pero tú puedes colocar le el jefe es eso.
+Después de ese entonces colocamos un color del texto, que sea también blanco.
+Y le vamos a colocar la familia que sería esta que le pudimos sacar con Manze.
+Y acá le vamos a dar Command + L nueve Ya tenemos también el mismo Help o la misma familia y la vamos a colocar un un tamaño también a la letra.
+Vamos a colocar le Fons ays de aproximadamente dieciséis pisas Guardamos.
+Vamos viendo.
+Listo.
+Nos creció un poquitín co ya se nos desaparecen CTO o que Después de eso.
+Vamos a colocarle un hay determinado porque éste está más grande que este que tenemos acá por defecto.
+Entonces se lo vamos a cuadrar.
+Sería hay de unos cincuenta píxeles Vamos a puerta que vamos a ver.
+El resultado sería super grande.
+Eso lo podemos solucionar mirando aquí, en el inspector, a ver qué es lo que sucede, Posiblemente tenga algún padre en interno, etcétera, que nos esté aumentando este este alto que ya tenemos.
+Le podemos colocar entonces un padre de cero pixeles sería arriba y abajo y vemos que está muy pegado este texto del input.
+Entonces también lo vamos a separar.
+Le podemos colocar unos veinte pizza, Les vamos a cortar y vamos a refrescar.
+Bueno, Sin, embargo, sí, que estando un poco pequeña este input vamos ampliarlo porque como vemos, esta muy grandecito, pero vamos a colocar una medida relativa, porque si nosotros inspección amos aquí lo que ya tenemos.
+Vamos a darnos cuenta que si estamos en Mogwai el nos debe corresponder a este a este dispositivo también.
+Entonces lo que vamos a hacer es utilizar esa medida a en relativa.
+Lo colocamos con Where.
+Vamos, A con cambiarle el ancho y vamos a colocar unos setenta Pit uno se tenga un setenta por ciento.
+No vamos a trabajar con Pixies, refresca, Moss y vemos que ya tiene un setenta por ciento dependiendo de el tamaño de nuestra pantalla.
+Para eso es que son muy útiles nuestros valores relativos, que nos quedaría faltando.
+Tendríamos entonces un va Crouch un poquito diferente es un poco más claro.
+Lo que vamos a hacer es que le vamos a colocar entonces acá en input Vamos a colocarle un va Creo Help va a crear un color.
+Puede ser.
+Y vamos a colocar RG B A que significa RG.
+Vea R es Red, Brin y club y está a Hace alusión a la opacidad.
+Lo que vamos a colocar es un color.
+En este caso es de colores blanco.
+Dos cincuenta y cinco, dos.
+Cincuenta y cinco, cincuenta y cinco.
+Y acá le vamos a colocar un opacidad.
+Le vamos a colocar cero punto uno que sea lo más clarito posible.
+Vamos a aguardar Refresca Moss y listo.
+Se nos está viendo De esta forma ya está un poco más clarito.
+Ya se nos está pareciendo un poco Siento yo que le coloque el morado más clarito y que aquí estamos utilizando el morado más oscuro.
+Pero bueno, solo podemos arreglar fácilmente.
+Confiamos aquí este nuevo color.
+Vamos a al código.
+Esto va a ser muy sencillo.
+Vamos a abrir nuestra barrita Fahim.
+Vamos a colocar el color.
+El establecimos anteriormente lo buscamos.
+Y lo que hacemos en reemplazarlo por este nuevo color.
+Abrimos esta flecha damos Command + L, Command + L nube y le damos en este icono que es de reemplazar.
+Muy bien, vamos al buscador.
+Guardábamos y listas ya de no se está pareciendo un poco nos quedaría faltando colocarle ahí este texto, el color blanco.
+Para ello vamos a hacer uso de un pseudo elemento que es Fleiss hall DIR.
+Vamos a abrir nuestras llaves y le vamos a colocar esta misma propia.
+Vamos a colocar le color.
+Bueno, guardamos y vemos aquí que efectivamente, ya tenemos ese mismo colar.
+Lo que nos quedaría faltando es colocar, quitarle este aula Haim que tenemos acá, que es cuando le damos click, nos aparece justamente ese borde azul.
+Eso no lo queremos aquí tampoco lo vamos a encontrar cuando les demos clic.
+Y lo otro es que seguramente eso tiene un borde.
+Citó más redondeado lo que vamos a tratar de hacer entonces y redondear esto.
+Bueno, hemos terminado.
+Nuestro buscado queda como tarea que estiliza.
+Es tu buscador que le redondee.
+Es un poco más Eso es sus bordes y aparte de eso, quitarle el aula en que sale por defecto.
+Cuando le damos click, nos vemos en la siguiente que hace.
 

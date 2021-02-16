@@ -470,3 +470,49 @@ Con esta metodología podemos dividir todos nuestros archivos de css en ciertas 
 `Átomos < Moléculas < Organismos < Templates < Paginas`
 
 ![](img/05-05_Atomic.jpg)
+
+### Reto 2: Identifica el error de arquitectura del siguiente bloque de código
+
+Una de las metodologías que podemos utilizar para organizar nuestro código es BEM (Bloque, Elemento, Modificador).
+
+A continuación, te mostraré 3 bloques de código. Identifica cuál bloque de código es el indicado para usar esta metodología.
+
+![](img/05-06_reto.jpg)
+
+![](img/05-07_reto.jpg)
+
+
+
+![](img/05-08_reto.jpg)
+
+## 5. Construcción de componentes
+### ¿Qué es un componente? Analicemos nuestros diseños
+
+En esta clase la profesora Estefany Aguilar nos explica qué es un componente en el mundo del frontend. También analizaremos el diseño del proyecto del curso.
+
+Un componente, tanto en diseño como desarrollo web, es un elemento muy pequeño que tiene la capacidad de ser reutilizado en diferentes partes de una aplicación. Por ejemplo: botones, iconos, cards, entre otras. Puedes apreciarlos en las plataformas que visitas todos los días: Twitter, Facebook, Platzi, YouTube y muchas más.
+
+![](/home/diego/REPO/data/01.cfd/img/06-01_componentes.jpg)
+
+
+
+### Estructura con HTML y BEM de un menú desplegable
+
+![](img/06-02_menu.jpg)
+
+
+
+https://iconos8.es/
+
+
+
+### Estilizando nuestro menú desplegable con CSS
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+https://fonts.google.com/
+
+
+
+### Creación de un buscador
+
